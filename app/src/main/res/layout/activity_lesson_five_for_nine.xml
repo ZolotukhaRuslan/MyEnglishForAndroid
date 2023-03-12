@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.lessonsActivity.MenuLessonFiveForNine">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:context=".activity.lessonsActivity.MenuLessonOneForFourActivity">
+
+        <Button
+            android:id="@+id/wordsLessonSix"
+            android:layout_width="185dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="115dp"
+            android:layout_marginTop="241dp"
+            android:layout_marginEnd="115dp"
+            android:layout_marginBottom="50dp"
+            android:onClick="lessonSixStart"
+            android:text="Lesson Six"
+            app:layout_constraintBottom_toTopOf="@+id/wordsLessonSeven"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/wordsLessonFive"
+            android:layout_width="180dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="115dp"
+            android:layout_marginEnd="115dp"
+            android:onClick="lessonFiveStart"
+            android:text="Lesson Five"
+            app:layout_constraintBottom_toTopOf="@+id/wordsLessonSix"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.722" />
+
+        <Button
+            android:id="@+id/wordsLessonSeven"
+            android:layout_width="180dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="115dp"
+            android:layout_marginEnd="115dp"
+            android:layout_marginBottom="341dp"
+            android:onClick="lessonSevenStart"
+            android:text="Lesson Seven"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/wordsLessonSix" />
+
+        <Button
+            android:id="@+id/wordsLessonEight"
+            android:layout_width="180dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="115dp"
+            android:layout_marginEnd="115dp"
+            android:layout_marginBottom="50dp"
+            android:onClick="lessonEightStart"
+            android:text="Lesson Eight"
+            app:layout_constraintBottom_toTopOf="@+id/wordsLessonNine"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/wordsLessonNine"
+            android:layout_width="180dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="115dp"
+            android:layout_marginEnd="115dp"
+            android:layout_marginBottom="150dp"
+            android:onClick="lessonNineStart"
+            android:text="Lesson Nine"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
